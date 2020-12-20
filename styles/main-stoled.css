@@ -1,14 +1,15 @@
 @font-face {
   font-family: "Raleway";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-Regular.ttf");
+  
+  src: url("fonts/Raleway-Regular.ttf");
 }
 @font-face {
   font-family: "Raleway-semibold";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-SemiBold.ttf");
+  src: url("fonts/Raleway-SemiBold.ttf");
 }
 @font-face {
   font-family: "Raleway-bold";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-Bold.ttf");
+  src: url("fonts/Raleway-Bold.ttf");
 }
 @keyframes fadeIn {
   100% {
@@ -718,48 +719,16 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("/images/laptop-bg3.png") center center/cover;
+  background: url("../images/laptop-bg3.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("/images/travel.jpg") center center/cover;
+  background: url("../images/travel.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url("/images/mdx-2.png") center center/cover;
+  background: url("../images/mdx-2.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("/images/laptop-bg3.png") center center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-5.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-6.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-7.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-8.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-9.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-10.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-11.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-12.jpg") center
-    center/cover;
+  background: url("../images/laptop-bg3.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
@@ -804,19 +773,7 @@ section:nth-of-type(4) .blog-wrap {
   width: 100%;
 }
 section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("/images/laptop-bg3.png") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("http://findmatthew.com/style/../img/blog-2.jpg") center
-    center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("http://findmatthew.com/style/../img/blog-3.jpg") center
-    center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("http://findmatthew.com/style/../img/blog-4.jpg") center
-    center/cover;
+  background: url("../images/laptop-bg3.png") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap .fade-wrap {
   transition: opacity 0.3s;
@@ -2048,17 +2005,17 @@ footer .footnote .highlight {
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-<style media="" data-href="style/style.css" > @font-face {
+ @font-face {
   font-family: "Raleway";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-Regular.ttf");
+  src: url("fonts/Raleway-Regular.ttf");
 }
 @font-face {
   font-family: "Raleway-semibold";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-SemiBold.ttf");
+  src: url("fonts/Raleway-SemiBold.ttf");
 }
 @font-face {
   font-family: "Raleway-bold";
-  src: url("http://findmatthew.com/style/../fonts/Raleway-Bold.ttf");
+  src: url("fonts/Raleway-Bold.ttf");
 }
 @keyframes fadeIn {
   100% {
@@ -2768,7 +2725,7 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("/images/laptop-bg3.png") center center/cover;
+  background: url("../images/laptop-bg3.png") center center/cover;
 }
 /* section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
   background: url("http://findmatthew.com/style/../img/thumb-2.jpg") center
@@ -2778,42 +2735,7 @@ section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
   background: url("http://findmatthew.com/style/../img/thumb-3.jpg") center
     center/cover;
 } */
-section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-4.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-5.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-6.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-7.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-8.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-9.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-10.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-11.jpg") center
-    center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url("http://findmatthew.com/style/../img/thumb-12.jpg") center
-    center/cover;
-}
+
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
   max-width: 100%;
@@ -2857,18 +2779,18 @@ section:nth-of-type(4) .blog-wrap {
   width: 100%;
 }
 section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("/images/vue-practices.jpeg") center center/cover;
+  background: url("../images/vue-practices.jpeg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("/images/JavaScript-Tutorials-for-Beginners-1280x720.jpg")
+  background: url("../images/JavaScript-Tutorials-for-Beginners-1280x720.jpg")
     center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("/images/graphic-design-and-web-developer.jpg") center
+  background: url("../images/graphic-design-and-web-developer.jpg") center
     center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("/images/magento-2-migration-function-development.png") center
+  background: url("../images/magento-2-migration-function-development.png") center
     center/cover;
 }
 section:nth-of-type(4) .blog-wrap .fade-wrap {
@@ -3358,18 +3280,3 @@ footer .footnote .highlight {
 .info-body {
   text-align: justify;
 }
-/* div.button {
-  background-color: transparent;
-  color: white;
-}
-.page-link:hover {
-  color: white !important;
-}
-.link-wrap .page-link {
-  background-color: transparent;
-  border: none;
-} */
-/* div.page-link {
-  color: white;
-} */
-/*# sourceMappingURL=style.css.map */

@@ -160,7 +160,7 @@ $(document).ready(function() {
         $.each($('#modal .slide'), function(index, value) {
           $(this).css({
             background:
-              "url('images/slides/" + id + '-' + index + ".jpg') center center/cover",
+              "url('../images/slides/" + id + '-' + index + ".jpg') center center/cover",
             backgroundSize: 'cover'
           });
         });
