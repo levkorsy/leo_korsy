@@ -304,7 +304,15 @@ nav .link-wrap div:first-child {
 nav .link-wrap div:hover {
   color: #e31b6d;
 }
-nav .mdi-menu {
+nav .fa-bars {
+  font-size: 30pt;
+  line-height: 36pt;
+  margin: auto 0;
+  position: absolute;
+  right: 5vw;
+  top: 0;
+}
+nav .fa-bars {
   font-size: 30pt;
   line-height: 36pt;
   margin: auto 0;
@@ -1043,7 +1051,7 @@ footer .footnote .highlight {
   nav .link-wrap div:first-child {
     padding: 0;
   }
-  nav .mdi-menu {
+  nav .fa-bars {
     display: none;
   }
 
@@ -2310,7 +2318,7 @@ nav .link-wrap div:first-child {
 nav .link-wrap div:hover {
   color: #e31b6d;
 }
-nav .mdi-menu {
+nav .fa-bars {
   font-size: 30pt;
   line-height: 36pt;
   margin: auto 0;
@@ -2725,7 +2733,11 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("../images/laptop-bg3.png") center center/cover;
+  background: url("../images/slides/ordering-1.jpg") center center/cover;
+  /* background-image: url("../images/laptop-bg3.png");
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: cover;  */
 }
 /* section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
   background: url("http://findmatthew.com/style/../img/thumb-2.jpg") center
@@ -3061,7 +3073,7 @@ footer .footnote .highlight {
   nav .link-wrap div:first-child {
     padding: 0;
   }
-  nav .mdi-menu {
+  nav .fa-bars {
     display: none;
   }
 
@@ -3280,3 +3292,6 @@ footer .footnote .highlight {
 .info-body {
   text-align: justify;
 }
+
+
+ 
