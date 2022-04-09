@@ -222,4 +222,13 @@ $(function() {
         document.getElementById("copyright").innerHTML = '@'+n;
     }
     getYearforCopy()
+
+    function getExperienceCounter() {
+        var startDate = 2017
+        var d = new Date();
+        var n = d.getFullYear() - startDate;
+        document.getElementById("experience").innerHTML = n;
+    }
+    getExperienceCounter()
+
 });
